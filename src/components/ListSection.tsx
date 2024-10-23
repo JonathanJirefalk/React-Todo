@@ -1,7 +1,7 @@
 import Task from "./Task";
 import { useState } from "react";
 
-const ListOfTasks = () => {
+const ListSection = () => {
     const [tasks, setTasks] = useState([<></>]);
     const [textValue, setTextValue] = useState("");
 
@@ -34,4 +34,4 @@ const ListOfTasks = () => {
     )
 }
 
-export default ListOfTasks
+export default ListSection
