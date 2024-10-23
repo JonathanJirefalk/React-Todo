@@ -1,27 +1,25 @@
 import Header from "./components/Header";
 import ListSection from "./components/ListSection";
+import AddTaskSection from "./components/AddTaskSection";
 import "./style.css"
 
 function App() {
 
   return (
     
-    <div>
+    <div className="body">
 
       <Header />
 
-      <div className="container">
-        
         <div className="listSection">
 
           <div className="inputDiv">
 
-            <ListSection />
-            
+
+            <AddTaskSection />
 
           </div>
         </div>
-      </div>
     </div>
     
 
