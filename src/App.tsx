@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import ListSection from "./components/ListSection";
 import AddTaskSection from "./components/AddTaskSection";
 import "./style.css"
 
