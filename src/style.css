@@ -1,0 +1,83 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.listSection{
+    height: 100vh;
+    width: 30%;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.taskList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskLayout{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    border-bottom: 2px solid rgb(92, 92, 92);
+
+}
+
+.checkBox{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.checkBox:checked + p{
+    text-decoration: line-through;
+}
+
+.taskText{
+    font-size: 2rem;
+}
+
+.taskInput{
+    width: 70%;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.addButton{
+    width: 7rem;
+    height: 2rem;
+
+    font-size: 1rem;
+}
+
+.taskInputDiv{
+    display: flex;
+    align-items: center;
+}
