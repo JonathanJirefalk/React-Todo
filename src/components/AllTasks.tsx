@@ -1,4 +1,4 @@
-const ListSection = (props: any) => {
+const AllTasks = (props: any) => {
 
 
     return (
@@ -12,4 +12,4 @@ const ListSection = (props: any) => {
     )
 }
 
-export default ListSection
+export default AllTasks

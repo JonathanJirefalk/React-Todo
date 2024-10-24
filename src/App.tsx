@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import AddTaskSection from "./components/AddTaskSection";
+import TaskList from "./components/TaskList";
 import "./style.css"
 
 function App() {
@@ -12,13 +12,10 @@ function App() {
 
         <div className="listSection">
 
-          <div className="inputDiv">
+          <TaskList />
 
-
-            <AddTaskSection />
-
-          </div>
         </div>
+        
     </div>
     
 

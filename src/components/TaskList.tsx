@@ -1,8 +1,8 @@
 import Task from "./Task";
-import ListSection from "./ListSection";
+import AllTasks from "./AllTasks";
 import { useState } from "react";
 
-const AddTaskSection = () =>{
+const TaskList = () =>{
     const [tasks, setTasks] = useState([<></>]);
     const [textValue, setTextValue] = useState("");
 
@@ -21,7 +21,7 @@ const AddTaskSection = () =>{
         
         <div>
 
-            <ListSection tasks = {tasks}/>
+            <AllTasks tasks = {tasks}/>
 
             <div className="taskInputDiv">
 
@@ -37,4 +37,4 @@ const AddTaskSection = () =>{
     )
 }
 
-export default AddTaskSection
+export default TaskList
