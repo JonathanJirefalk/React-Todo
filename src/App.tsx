@@ -13,14 +13,10 @@ function App() {
         <div className="listSection">
 
           <TaskList />
-
+          
         </div>
-        
+
     </div>
-    
-
-    
-
   )
 }
 

@@ -13,6 +13,8 @@ const TaskList = () =>{
             setTasks([...tasks, <Task text = {textValue}/>]);
             
             setTextValue("");
+
+            console.log(tasks)
         }
         
     }
@@ -20,7 +22,7 @@ const TaskList = () =>{
     return(
         
         <div>
-
+            
             <AllTasks tasks = {tasks}/>
 
             <div className="taskInputDiv">
@@ -30,11 +32,10 @@ const TaskList = () =>{
                 <button className="addButton" onClick={addTask}>Add Task</button>
 
             </div>
-            
-        </div>
-        
 
+        </div>
     )
 }
 
+//
 export default TaskList
